@@ -1,0 +1,102 @@
+/* Reset default margin and padding */
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color:white;
+}
+
+/* Center the container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+/* Style the cart item */
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the item image */
+.item-image {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+/* Style the item details */
+.item-details {
+  flex: 1;
+}
+
+/* Style the item name */
+.item-name {
+  font-weight: bold;
+}
+
+/* Style the quantity section */
+.quantity {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+/* Style the quantity buttons */
+.quantity button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for quantity buttons */
+.quantity button:hover {
+  background-color: #45a049;
+}
+
+/* Style the quantity value */
+.quantity-value {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Style the trash button */
+.trash {
+  font-size: 20px;
+  color: #FF5733;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Style the total section */
+.total {
+  text-align: right;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+}
